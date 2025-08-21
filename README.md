@@ -18,7 +18,7 @@ Key steps:
 
 ---
 
-### ✨ Features
+### Features
 
 - **Adaptive Contrast**: CLAHE + dynamic scaling based on image stats
 - **Multi-Scale Edges**: Canny (fine/medium), Sobel magnitude, Laplacian cues
@@ -29,7 +29,7 @@ Key steps:
 
 ---
 
-### 📦 Requirements
+### Requirements
 
 - Python 3.8+
 - OpenCV (`opencv-python`)
@@ -45,7 +45,7 @@ pip install opencv-python numpy
 
 ---
 
-### 🚀 Usage
+### Usage
 
 #### CLI
 
@@ -79,7 +79,7 @@ color_warp, bw_scan = scan_image("path/to/photo.jpg", show_preview=False)
 
 ---
 
-### 🔍 How It Works
+### How It Works
 
 1. Resize & Grayscale → speed + stability
 2. Contrast Analysis → mean/std/min/max, RMS & Michelson metrics
@@ -93,7 +93,7 @@ color_warp, bw_scan = scan_image("path/to/photo.jpg", show_preview=False)
 
 ---
 
-### 📂 Example Repository Structure
+### Example Repository Structure
 
 ```
 .
@@ -108,7 +108,7 @@ color_warp, bw_scan = scan_image("path/to/photo.jpg", show_preview=False)
 
 ---
 
-### 🖼️ Results (What to Expect)
+###  Results (What to Expect)
 
 - B/W scan with sharp text and clean background
 - Color warp (optional) for forms or images you don’t want binarized
@@ -116,7 +116,7 @@ color_warp, bw_scan = scan_image("path/to/photo.jpg", show_preview=False)
 
 ---
 
-### 🛠️ Troubleshooting
+###  Troubleshooting
 
 - “Could not read image” → check `-i` path and file permissions
 - Wrong page detected → run with `--preview` to inspect detection steps
@@ -125,7 +125,7 @@ color_warp, bw_scan = scan_image("path/to/photo.jpg", show_preview=False)
 
 ---
 
-### 📌 Roadmap
+### Roadmap
 
 - Batch mode (scan a folder)
 - Auto-rotate (detect text orientation)
@@ -134,14 +134,15 @@ color_warp, bw_scan = scan_image("path/to/photo.jpg", show_preview=False)
 
 ---
 
-### 🙏 Acknowledgments
+### Acknowledgments
 
 Built while learning OpenCV/NumPy, inspired by common doc-scan recipes and optimized for low contrast scenarios.
 
 ---
 
-### 📜 License
+### License
 
 This project is open source under the MIT License.
+
 
 
