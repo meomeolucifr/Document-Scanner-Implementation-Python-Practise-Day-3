@@ -9,8 +9,8 @@ Key improvements for v8:
 - Better corner detection for subtle boundaries
 
 Usage:
-  python scan_improved_v8.py -i path/to/photo.jpg -o scanned.png
-  python scan_improved_v8.py -i path/to/photo.jpg --preview
+  python scan_improved.py -i path/to/photo.jpg -o scanned.png
+  python scan_improved.py -i path/to/photo.jpg --preview
 
 Requires: Python 3.8+, OpenCV (pip install opencv-python)
 """
@@ -435,4 +435,5 @@ def main():
         return 1
 
 if __name__ == "__main__":
+
     sys.exit(main())
