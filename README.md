@@ -5,7 +5,7 @@ Built as **Day 3** of my Python learning journey.
 
 ---
 
-### 📖 Project Overview
+### Project Overview
 
 This project implements a classic “phone photo → flat scan” pipeline with extra care for hard cases (washed-out pages, faint edges, bright tables).
 
@@ -143,6 +143,7 @@ Built while learning OpenCV/NumPy, inspired by common doc-scan recipes and optim
 ### License
 
 This project is open source under the MIT License.
+
 
 
 
